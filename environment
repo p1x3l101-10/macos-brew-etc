@@ -1,0 +1,2 @@
+XDG_CONFIG_DIR=$HOME/.config
+WHALEBREW_CONFIG_DIR=/var/tmp/homebrew/etc/whalebrew
