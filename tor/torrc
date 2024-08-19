@@ -1,0 +1,5 @@
+SOCKSPort 9050
+DataDirectory /private/var/tmp/homebrew/var/lib/tor
+
+%include /etc/torrc.d/*.conf
+

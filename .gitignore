@@ -9,6 +9,12 @@
 !/homebrew/Brewfile
 !/homebrew/brew.env
 !/homebrew/links.conf
+!/tor
+!/tor/torrc
+!/tor/torrc.d
+!/tor/torrc.d/*.conf
+!/tor/torrc.d/SECRET_FILES
+/tor/torrc.d/*.conf.secret
 !/vimrc
 !/whalebrew
 !/whalebrew/config.yaml
