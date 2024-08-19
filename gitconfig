@@ -1,2 +1,5 @@
 [credential]
 	helper = osxkeychain
+[user]
+	name = Pixel
+	email = scott.blatt.0b10@gmail.com
