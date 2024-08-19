@@ -1,0 +1,17 @@
+# Only track configs that I change
+/**/*
+/*
+!/.gitignore
+!/Brewfile
+!/DIR_COLORS
+!/environment
+!/gitconfig
+!/homebrew
+!/homebrew/brew.env
+!/homebrew/links.conf
+!/vimrc
+!/whalebrew
+!/whalebrew/config.yaml
+!/zshrc
+!/zshrc.d
+!/zshrc.d/*
