@@ -2,11 +2,11 @@
 /**/*
 /*
 !/.gitignore
-!/Brewfile
 !/DIR_COLORS
 !/environment
 !/gitconfig
 !/homebrew
+!/homebrew/Brewfile
 !/homebrew/brew.env
 !/homebrew/links.conf
 !/vimrc
