@@ -7,70 +7,145 @@ tap "homebrew/formula-analytics"
 tap "homebrew/services"
 tap "p1x3l101-10/personal", "git@github.com:p1x3l101-10/homebrew-personal.git"
 tap "rafaelgarrido/caveats"
+tap "tuist/tuist"
+# Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
+# Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# GNU binary tools for native development
 brew "binutils"
+# Fish completion for brew-cask
 brew "brew-cask-completion"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
+# GNU CLISP, a Common Lisp implementation
 brew "clisp"
+# Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# POSIX-compliant descendant of NetBSD's ash (the Almquist SHell)
 brew "dash"
+# Bash, Zsh and Fish completion for Docker
 brew "docker-completion"
+# AV1 encoder
+brew "svt-av1"
+# Collection of GNU find, xargs, and locate
 brew "findutils"
+# Command-line fuzzy finder written in Go
 brew "fzf"
+# Implementation of the ANS Forth language
 brew "gforth"
+# Distributed revision control system
 brew "git"
+# GNU version of the tar archiving utility
 brew "gnu-tar"
+# Kubernetes command-line interface
 brew "kubernetes-cli"
+# Bash completion for Launchctl
 brew "launchctl-completion"
+# Lazier way to manage everything docker
 brew "lazydocker"
+# Simple terminal UI for git commands
 brew "lazygit"
+# Generic machine emulator and virtualizer
 brew "qemu"
+# Linux virtual machines
 brew "lima"
+# Run a Kubernetes cluster locally
 brew "minikube"
+# NCurses Disk Usage
 brew "ncdu"
+# Bash completion for open
 brew "open-completion"
+# Development kit for the Java programming language
 brew "openjdk@17"
+# Development kit for the Java programming language
 brew "openjdk@21"
+# Bash completion for Pip
 brew "pip-completion"
+# Tool for managing OCI containers and pods
 brew "podman"
+# Alternative to docker-compose using podman
 brew "podman-compose"
+# Powerful, clean, object-oriented scripting language
 brew "ruby"
+# Version control system designed to be a better CVS
 brew "subversion"
+# Open source continuous file synchronization application
 brew "syncthing", restart_service: true
+# Tool Command Language
 brew "tcl-tk"
+# Anonymizing overlay network for TCP
 brew "tor"
+# Use SOCKS-friendly applications with Tor
 brew "torsocks"
+# Cross-platform Rust rewrite of the GNU coreutils
 brew "uutils-coreutils"
+# Vi 'workalike' with many additional features
 brew "vim"
+# Generator for LS_COLORS with support for multiple color themes
 brew "vivid"
+# Internet file retriever
 brew "wget"
+# Homebrew, but with Docker images
 brew "whalebrew"
+# Automatic workarounds for problems in Wine
 brew "winetricks"
+# GNU Binutils for x86_64-linux-gnu cross development
 brew "x86_64-linux-gnu-binutils"
+# GTK+ dialog boxes for the command-line
 brew "zenity"
+# Shell extension to navigate your filesystem faster
 brew "zoxide"
+# UNIX shell (command interpreter)
 brew "zsh"
+# Additional completion definitions for zsh
 brew "zsh-completions"
+# A cli tool to browse and play anime
 brew "p1x3l101-10/personal/ani-cli", args: ["HEAD"]
+# Tiny Tcl interpreter
 brew "p1x3l101-10/personal/dbohdan-picol"
-brew "p1x3l101-10/personal/mindustry"
+#  The automation tower defense RTS 
+brew "p1x3l101-10/personal/mindustry", args: ["with-app"]
+# Java 8 for M1, provided by Zulu
 brew "p1x3l101-10/personal/zulu@8"
+# E-books management software
 cask "calibre"
+# Code editor
 cask "codeedit"
+# Web browser
 cask "firefox"
+# Open Source Multimedia Framework
 cask "gstreamer-runtime"
+# Free and open-source media player
 cask "iina"
+# Enabling communication between all your devices.
+cask "kde-connect"
+# GPU-based terminal emulator
 cask "kitty"
+# Free cross-platform office suite, fresh version
 cask "libreoffice"
+# Utility to open, create and modify archive files
 cask "maczip"
+# Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Browse, manage, inspect containers and images
 cask "podman-desktop"
+# DRM-free Prism Launcher fork with support for custom auth servers. 
 cask "pollymc"
+# Physics sandbox game
 cask "powder"
+# Tray app for Syncthing
 cask "qsyncthingtray"
+# Native Discord client built in Swift
+cask "swiftcord"
+# Free-to-play Tetris clone
 cask "tetrio"
+# Customizable email client
 cask "thunderbird"
+# Web browser focusing on security
 cask "tor-browser"
+# Compatibility layer to run Windows applications
 cask "wine@staging"
+# YouTube music client
 cask "ytmdesktop-youtube-music"
+whalebrew "directory"
