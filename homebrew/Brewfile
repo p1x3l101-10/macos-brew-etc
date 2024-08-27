@@ -30,6 +30,8 @@ brew "curl"
 brew "dash"
 # Bash, Zsh and Fish completion for Docker
 brew "docker-completion"
+# Parser generator tool and incremental parsing library
+brew "tree-sitter"
 # AV1 encoder
 brew "svt-av1"
 # Collection of GNU find, xargs, and locate
@@ -58,12 +60,16 @@ brew "lima"
 brew "minikube"
 # NCurses Disk Usage
 brew "ncdu"
+# Port scanning utility for large networks
+brew "nmap"
 # Bash completion for open
 brew "open-completion"
 # Development kit for the Java programming language
 brew "openjdk@17"
 # Development kit for the Java programming language
 brew "openjdk@21"
+# OpenBSD freely-licensed SSH connectivity tools
+brew "openssh"
 # Bash completion for Pip
 brew "pip-completion"
 # Tool for managing OCI containers and pods
@@ -109,15 +115,21 @@ brew "p1x3l101-10/personal/ani-cli", args: ["HEAD"]
 # Tiny Tcl interpreter
 brew "p1x3l101-10/personal/dbohdan-picol"
 #  The automation tower defense RTS 
-brew "p1x3l101-10/personal/mindustry", args: ["with-app"]
+brew "p1x3l101-10/personal/mindustry", args: ["with-app"], link: false
 # Java 8 for M1, provided by Zulu
 brew "p1x3l101-10/personal/zulu@8"
+# 3D creation suite
+cask "blender"
 # E-books management software
 cask "calibre"
 # Code editor
 cask "codeedit"
+# File management multi-tool
+cask "filepane"
 # Web browser
 cask "firefox"
+# Launcher for Flashpoint Archive
+cask "flashpoint"
 # Open Source Multimedia Framework
 cask "gstreamer-runtime"
 # Free and open-source media player
