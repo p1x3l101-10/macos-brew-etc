@@ -111,7 +111,7 @@ brew "zsh"
 # Additional completion definitions for zsh
 brew "zsh-completions"
 # A cli tool to browse and play anime
-brew "p1x3l101-10/personal/ani-cli", args: ["HEAD"]
+brew "p1x3l101-10/personal/ani-cli"
 # Tiny Tcl interpreter
 brew "p1x3l101-10/personal/dbohdan-picol"
 #  The automation tower defense RTS 
