@@ -115,7 +115,7 @@ brew "p1x3l101-10/personal/ani-cli", args: ["HEAD"]
 # Tiny Tcl interpreter
 brew "p1x3l101-10/personal/dbohdan-picol"
 #  The automation tower defense RTS 
-brew "p1x3l101-10/personal/mindustry", args: ["with-app"], link: false
+brew "p1x3l101-10/personal/mindustry", args: ["with-app"]
 # Java 8 for M1, provided by Zulu
 brew "p1x3l101-10/personal/zulu@8"
 # 3D creation suite
