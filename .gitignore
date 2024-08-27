@@ -9,6 +9,8 @@
 !/homebrew/Brewfile
 !/homebrew/brew.env
 !/homebrew/links.conf
+!/kitty
+!/kitty/kitty.conf
 !/tor
 !/tor/torrc
 !/tor/torrc.d
