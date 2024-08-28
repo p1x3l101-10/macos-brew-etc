@@ -7,6 +7,7 @@
 !/gitconfig
 !/homebrew
 !/homebrew/Brewfile
+!/homebrew/backupPaths.conf
 !/homebrew/brew.env
 !/homebrew/links.conf
 !/kitty
