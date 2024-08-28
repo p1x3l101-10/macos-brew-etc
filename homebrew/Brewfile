@@ -157,7 +157,6 @@ cask "tor-browser"
 cask "wine@staging"
 # YouTube music client
 cask "ytmdesktop-youtube-music"
-mas "Actions For Obsidian", id: 1659667937
 mas "AdGuard for Safari", id: 1440147259
 mas "Amphetamine", id: 937984704
 mas "GarageBand", id: 682658836
