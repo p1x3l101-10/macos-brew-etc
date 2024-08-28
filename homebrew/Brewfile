@@ -57,6 +57,8 @@ brew "lazygit"
 brew "qemu"
 # Linux virtual machines
 brew "lima"
+# Mac App Store command-line interface
+brew "mas"
 # Run a Kubernetes cluster locally
 brew "minikube"
 # NCurses Disk Usage
@@ -165,4 +167,12 @@ cask "tor-browser"
 cask "wine@staging"
 # YouTube music client
 cask "ytmdesktop-youtube-music"
+mas "Actions For Obsidian", id: 1659667937
+mas "AdGuard for Safari", id: 1440147259
+mas "Amphetamine", id: 937984704
+mas "GarageBand", id: 682658836
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Owl", id: 6479331854
+mas "Pages", id: 409201541
 whalebrew "directory"
