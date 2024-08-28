@@ -8,6 +8,7 @@ tap "homebrew/services"
 tap "p1x3l101-10/personal", "git@github.com:p1x3l101-10/homebrew-personal.git"
 tap "rafaelgarrido/caveats"
 tap "tuist/tuist"
+tap "unmojang/unmojang"
 # Apache Portable Runtime library
 brew "apr"
 # Bourne-Again SHell, a UNIX command interpreter
@@ -128,6 +129,8 @@ cask "codeedit"
 cask "filepane"
 # Web browser
 cask "firefox"
+# Prism Launcher fork with support for alternative auth servers
+cask "fjordlauncher"
 # Launcher for Flashpoint Archive
 cask "flashpoint"
 # Open Source Multimedia Framework
@@ -146,8 +149,6 @@ cask "maczip"
 cask "obsidian"
 # Browse, manage, inspect containers and images
 cask "podman-desktop"
-# DRM-free Prism Launcher fork with support for custom auth servers. 
-cask "pollymc"
 # Physics sandbox game
 cask "powder"
 # Tray app for Syncthing
