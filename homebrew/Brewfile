@@ -129,8 +129,6 @@ cask "calibre"
 cask "codeedit"
 # File management multi-tool
 cask "filepane"
-# Web browser
-cask "firefox"
 # Prism Launcher fork with support for alternative auth servers
 cask "fjordlauncher"
 # Launcher for Flashpoint Archive
@@ -159,8 +157,6 @@ cask "qsyncthingtray"
 cask "swiftcord"
 # Free-to-play Tetris clone
 cask "tetrio"
-# Customizable email client
-cask "thunderbird"
 # Web browser focusing on security
 cask "tor-browser"
 # Compatibility layer to run Windows applications
