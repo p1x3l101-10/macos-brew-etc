@@ -141,8 +141,6 @@ cask "iina"
 cask "kde-connect"
 # GPU-based terminal emulator
 cask "kitty"
-# Free cross-platform office suite, fresh version
-cask "libreoffice"
 # Utility to open, create and modify archive files
 cask "maczip"
 # Knowledge base that works on top of a local folder of plain text Markdown files
