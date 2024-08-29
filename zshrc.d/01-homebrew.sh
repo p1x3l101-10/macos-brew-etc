@@ -1,1 +1,1 @@
-eval "$(/var/tmp/homebrew/bin/brew shellenv)"
+eval "$(/private/var/tmp/homebrew/bin/brew shellenv)"
