@@ -119,6 +119,8 @@ cask "powder"
 cask "qsyncthingtray"
 # Free-to-play Tetris clone
 cask "tetrio"
+# Connectivity software for the TI-84 Plus family of graphing calculators
+cask "ti-connect-ce"
 # Web browser focusing on security
 cask "tor-browser"
 # Compatibility layer to run Windows applications
