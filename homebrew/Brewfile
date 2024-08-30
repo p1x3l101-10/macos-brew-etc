@@ -113,6 +113,8 @@ cask "kitty"
 cask "lastfm"
 # Utility to open, create and modify archive files
 cask "maczip"
+# Tool for editing metadata of audio files including MP3, FLAC, OGG, and more
+cask "mp3tag"
 # Physics sandbox game
 cask "powder"
 # Tray app for Syncthing
