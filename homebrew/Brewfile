@@ -113,8 +113,6 @@ cask "kitty"
 cask "lastfm"
 # Utility to open, create and modify archive files
 cask "maczip"
-# Tool for editing metadata of audio files including MP3, FLAC, OGG, and more
-cask "mp3tag"
 # Physics sandbox game
 cask "powder"
 # Tray app for Syncthing
@@ -131,5 +129,6 @@ mas "AdGuard for Safari", id: 1440147259
 mas "Amphetamine", id: 937984704
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
+mas "oah", id: 1592826205
 mas "Pages", id: 409201541
 whalebrew "directory"
