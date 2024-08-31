@@ -105,6 +105,8 @@ cask "codeedit"
 cask "fjordlauncher"
 # Free and open-source media player
 cask "iina"
+# Media system
+cask "jellyfin"
 # Jellyfin desktop client
 cask "jellyfin-media-player"
 # GPU-based terminal emulator
