@@ -83,6 +83,8 @@ brew "whalebrew"
 brew "winetricks"
 # GNU Binutils for x86_64-linux-gnu cross development
 brew "x86_64-linux-gnu-binutils"
+# GTK+ dialog boxes for the command-line
+brew "zenity"
 # Compression and file packaging/archive utility
 brew "zip"
 # Shell extension to navigate your filesystem faster
@@ -105,6 +107,8 @@ cask "codeedit"
 cask "dolphin"
 # Prism Launcher fork with support for alternative auth servers
 cask "fjordlauncher"
+# Open Source Multimedia Framework
+cask "gstreamer-runtime"
 # Free and open-source media player
 cask "iina"
 # Media system
@@ -128,7 +132,7 @@ cask "ti-connect-ce"
 # Web browser focusing on security
 cask "tor-browser"
 # Compatibility layer to run Windows applications
-cask "wine@staging"
+cask "wine@devel"
 mas "AdGuard for Safari", id: 1440147259
 mas "Amphetamine", id: 937984704
 mas "Keynote", id: 409183694
