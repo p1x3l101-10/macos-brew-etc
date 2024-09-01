@@ -127,6 +127,8 @@ cask "powder"
 cask "qsyncthingtray"
 # Frontend for emulators, game engines and media players (OpenGL graphics API)
 cask "retroarch"
+# A free and open-source Touhou Project fangame
+cask "taisei-project"
 # Free-to-play Tetris clone
 cask "tetrio"
 # Connectivity software for the TI-84 Plus family of graphing calculators
