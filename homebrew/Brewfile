@@ -101,6 +101,8 @@ brew "p1x3l101-10/personal/zulu@8"
 cask "calibre"
 # Code editor
 cask "codeedit"
+# Emulator to play GameCube and Wii games
+cask "dolphin"
 # Prism Launcher fork with support for alternative auth servers
 cask "fjordlauncher"
 # Free and open-source media player
