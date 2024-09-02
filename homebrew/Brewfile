@@ -1,3 +1,5 @@
+tap "apple/apple"
+tap "gcenx/wine"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/command-not-found"
@@ -107,16 +109,18 @@ cask "codeedit"
 cask "dolphin"
 # Prism Launcher fork with support for alternative auth servers
 cask "fjordlauncher"
+# Use to eliminate months of up-front work and evaluate how well your game runs
+cask "game-porting-toolkit"
 # Open Source Multimedia Framework
 cask "gstreamer-runtime"
+# Terminal built on web technologies
+cask "hyper"
 # Free and open-source media player
 cask "iina"
 # Media system
 cask "jellyfin"
 # Jellyfin desktop client
 cask "jellyfin-media-player"
-# GPU-based terminal emulator
-cask "kitty"
 # Music services manager
 cask "lastfm"
 # Utility to open, create and modify archive files
@@ -135,8 +139,6 @@ cask "tetrio"
 cask "ti-connect-ce"
 # Web browser focusing on security
 cask "tor-browser"
-# Compatibility layer to run Windows applications
-cask "wine@devel"
 mas "AdGuard for Safari", id: 1440147259
 mas "Amphetamine", id: 937984704
 mas "Keynote", id: 409183694
