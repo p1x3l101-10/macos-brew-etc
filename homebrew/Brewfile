@@ -119,8 +119,6 @@ cask "hyper"
 cask "iina"
 # Jellyfin desktop client
 cask "jellyfin-media-player"
-# Music services manager
-cask "lastfm"
 # Utility to open, create and modify archive files
 cask "maczip"
 # Physics sandbox game
