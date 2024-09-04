@@ -113,8 +113,6 @@ cask "codeedit"
 cask "dolphin"
 # Prism Launcher fork with support for alternative auth servers
 cask "fjordlauncher"
-# Use to eliminate months of up-front work and evaluate how well your game runs
-cask "game-porting-toolkit"
 # Open Source Multimedia Framework
 cask "gstreamer-runtime"
 # Terminal built on web technologies
