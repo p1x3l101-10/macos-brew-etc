@@ -119,8 +119,6 @@ cask "game-porting-toolkit"
 cask "gstreamer-runtime"
 # Terminal built on web technologies
 cask "hyper"
-# User-controlled selective sync for iCloud Drive
-cask "icloud-control"
 # Free and open-source media player
 cask "iina"
 # Jellyfin desktop client
