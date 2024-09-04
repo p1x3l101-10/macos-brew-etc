@@ -141,6 +141,8 @@ cask "tetrio"
 cask "ti-connect-ce"
 # Web browser focusing on security
 cask "tor-browser"
+# Wine wrapper built with SwiftUI
+cask "whisky"
 mas "AdGuard for Safari", id: 1440147259
 mas "Amphetamine", id: 937984704
 mas "Keynote", id: 409183694
