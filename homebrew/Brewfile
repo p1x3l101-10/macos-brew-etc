@@ -131,6 +131,8 @@ cask "powder"
 cask "qsyncthingtray"
 # Frontend for emulators, game engines and media players (OpenGL graphics API)
 cask "retroarch"
+# Open-source Nintendo Switch emulator
+cask "ryujinx"
 # A free and open-source Touhou Project fangame
 cask "taisei-project"
 # Free-to-play Tetris clone
@@ -139,4 +141,12 @@ cask "tetrio"
 cask "ti-connect-ce"
 # Web browser focusing on security
 cask "tor-browser"
+mas "AdGuard for Safari", id: 1440147259
+mas "Amphetamine", id: 937984704
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "oah", id: 1592826205
+mas "Pages", id: 409201541
+mas "Silicio", id: 933627574
+mas "TestFlight", id: 899247664
 whalebrew "directory"
