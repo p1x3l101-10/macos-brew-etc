@@ -57,8 +57,12 @@ brew "openjdk@21"
 brew "openssh"
 # Bash completion for Pip
 brew "pip-completion"
+# Tool for managing OCI containers and pods
+brew "podman"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
+# Create beautiful image of your source code
+brew "silicon"
 # Version control system designed to be a better CVS
 brew "subversion"
 # Open source continuous file synchronization application
