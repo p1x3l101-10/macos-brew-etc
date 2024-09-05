@@ -131,6 +131,8 @@ cask "qsyncthingtray"
 cask "retroarch"
 # Open-source Nintendo Switch emulator
 cask "ryujinx"
+# Open-source media center
+cask "stremio"
 # A free and open-source Touhou Project fangame
 cask "taisei-project"
 # Free-to-play Tetris clone
@@ -139,6 +141,8 @@ cask "tetrio"
 cask "ti-connect-ce"
 # Web browser focusing on security
 cask "tor-browser"
+# Desktop Backup Client for Borg
+cask "vorta"
 # Wine wrapper built with SwiftUI
 cask "whisky"
 mas "AdGuard for Safari", id: 1440147259
