@@ -9,14 +9,10 @@ tap "homebrew/services"
 tap "p1x3l101-10/personal", "git@github.com:p1x3l101-10/homebrew-personal.git"
 tap "rafaelgarrido/caveats"
 tap "unmojang/unmojang"
-# Apache Portable Runtime library
-brew "apr"
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Fish completion for brew-cask
-brew "brew-cask-completion"
 # GNU compiler collection
 brew "gcc"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
@@ -27,24 +23,16 @@ brew "cmake"
 brew "curl"
 # POSIX-compliant descendant of NetBSD's ash (the Almquist SHell)
 brew "dash"
-# AV1 encoder
-brew "svt-av1"
 # Collection of GNU find, xargs, and locate
 brew "findutils"
-# Command-line fuzzy finder written in Go
-brew "fzf"
 # Distributed revision control system
 brew "git"
 # GNU version of the tar archiving utility
 brew "gnu-tar"
-# Manage compile and link flags for libraries
-brew "pkg-config"
 # Bash completion for Launchctl
 brew "launchctl-completion"
 # Generic machine emulator and virtualizer
 brew "qemu"
-# Linux virtual machines
-brew "lima"
 # Mac App Store command-line interface
 brew "mas"
 # Small build system for use with gyp or CMake
@@ -67,18 +55,10 @@ brew "pip-completion"
 brew "podman"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
-# Create beautiful image of your source code
-brew "silicon"
 # Version control system designed to be a better CVS
 brew "subversion"
 # Open source continuous file synchronization application
 brew "syncthing", restart_service: true
-# Tool Command Language
-brew "tcl-tk"
-# Anonymizing overlay network for TCP
-brew "tor"
-# Use SOCKS-friendly applications with Tor
-brew "torsocks"
 # Parser generator tool and incremental parsing library
 brew "tree-sitter"
 # Cross-platform Rust rewrite of the GNU coreutils
@@ -93,16 +73,12 @@ brew "wget"
 brew "whalebrew"
 # Automatic workarounds for problems in Wine
 brew "winetricks"
-# GNU Binutils for x86_64-linux-gnu cross development
-brew "x86_64-linux-gnu-binutils"
 # GTK+ dialog boxes for the command-line
 brew "zenity"
 # Compression and file packaging/archive utility
 brew "zip"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
-# UNIX shell (command interpreter)
-brew "zsh"
 # Additional completion definitions for zsh
 brew "zsh-completions"
 # A cli tool to browse and play anime
@@ -111,12 +87,8 @@ brew "p1x3l101-10/personal/ani-cli"
 brew "p1x3l101-10/personal/mindustry"
 # Java 8 for M1, provided by Zulu
 brew "p1x3l101-10/personal/zulu@8"
-# Code editor
-cask "codeedit"
 # Prism Launcher fork with support for alternative auth servers
 cask "fjordlauncher"
-# Open Source Multimedia Framework
-cask "gstreamer-runtime"
 # Terminal built on web technologies
 cask "hyper"
 # Free and open-source media player
@@ -141,4 +113,3 @@ mas "oah", id: 1592826205
 mas "Pages", id: 409201541
 mas "Silicio", id: 933627574
 mas "TestFlight", id: 899247664
-whalebrew "directory"
