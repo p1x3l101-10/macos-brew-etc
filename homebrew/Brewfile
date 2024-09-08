@@ -21,6 +21,8 @@ brew "brew-cask-completion"
 brew "gcc"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
+# Cross-platform make
+brew "cmake"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # POSIX-compliant descendant of NetBSD's ash (the Almquist SHell)
@@ -35,6 +37,8 @@ brew "fzf"
 brew "git"
 # GNU version of the tar archiving utility
 brew "gnu-tar"
+# Manage compile and link flags for libraries
+brew "pkg-config"
 # Bash completion for Launchctl
 brew "launchctl-completion"
 # Generic machine emulator and virtualizer
@@ -43,6 +47,8 @@ brew "qemu"
 brew "lima"
 # Mac App Store command-line interface
 brew "mas"
+# Small build system for use with gyp or CMake
+brew "ninja"
 # NCurses Disk Usage
 brew "ncdu"
 # Port scanning utility for large networks
@@ -105,12 +111,8 @@ brew "p1x3l101-10/personal/ani-cli"
 brew "p1x3l101-10/personal/mindustry"
 # Java 8 for M1, provided by Zulu
 brew "p1x3l101-10/personal/zulu@8"
-# E-books management software
-cask "calibre"
 # Code editor
 cask "codeedit"
-# Emulator to play GameCube and Wii games
-cask "dolphin"
 # Prism Launcher fork with support for alternative auth servers
 cask "fjordlauncher"
 # Open Source Multimedia Framework
@@ -119,26 +121,12 @@ cask "gstreamer-runtime"
 cask "hyper"
 # Free and open-source media player
 cask "iina"
-# Jellyfin desktop client
-cask "jellyfin-media-player"
-# Utility to open, create and modify archive files
-cask "maczip"
-# Physics sandbox game
-cask "powder"
-# Tray app for Syncthing
-cask "qsyncthingtray"
-# Frontend for emulators, game engines and media players (OpenGL graphics API)
-cask "retroarch"
-# Open-source Nintendo Switch emulator
-cask "ryujinx"
 # Open-source media center
 cask "stremio"
 # A free and open-source Touhou Project fangame
 cask "taisei-project"
 # Free-to-play Tetris clone
 cask "tetrio"
-# Connectivity software for the TI-84 Plus family of graphing calculators
-cask "ti-connect-ce"
 # Web browser focusing on security
 cask "tor-browser"
 # Desktop Backup Client for Borg
