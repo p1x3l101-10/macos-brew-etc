@@ -13,6 +13,7 @@ brew "dash"
 brew "findutils"
 brew "fzf"
 brew "launchctl-completion"
+brew "llvm", link: true
 brew "mas"
 brew "megatools"
 brew "ncdu"
@@ -42,6 +43,7 @@ cask "taisei-project"
 cask "tetrio"
 cask "tor-browser"
 cask "vorta"
+cask "vscodium"
 cask "whisky"
 mas "AdGuard for Safari", id: 1440147259
 mas "Amphetamine", id: 937984704
