@@ -27,7 +27,6 @@ brew "syncthing", restart_service: true
 brew "uutils-coreutils"
 brew "vim"
 brew "wget"
-brew "zenity"
 brew "zoxide"
 brew "zsh-completions"
 brew "p1x3l101-10/personal/ani-cli"
@@ -52,3 +51,4 @@ mas "Numbers", id: 409203825
 mas "oah", id: 1592826205
 mas "Pages", id: 409201541
 mas "Silicio", id: 933627574
+mas "TestFlight", id: 899247664
