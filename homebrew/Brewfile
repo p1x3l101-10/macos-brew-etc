@@ -9,119 +9,63 @@ tap "homebrew/services"
 tap "p1x3l101-10/personal", "git@github.com:p1x3l101-10/homebrew-personal.git"
 tap "rafaelgarrido/caveats"
 tap "unmojang/unmojang"
-# Apache Portable Runtime library
+brew "imath"
 brew "apr"
-# Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
-# Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# GNU compiler collection
 brew "gcc"
-# Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
-# Cross-platform make
 brew "cmake"
-# Get a file from an HTTP, HTTPS or FTP server
-brew "curl"
-# POSIX-compliant descendant of NetBSD's ash (the Almquist SHell)
+brew "curl", link: true
 brew "dash"
-# AV1 encoder
 brew "svt-av1"
-# Collection of GNU find, xargs, and locate
 brew "findutils"
-# Command-line fuzzy finder written in Go
 brew "fzf"
-# Distributed revision control system
 brew "git"
-# GNU version of the tar archiving utility
 brew "gnu-tar"
-# Manage compile and link flags for libraries
 brew "pkg-config"
-# Bash completion for Launchctl
 brew "launchctl-completion"
-# Mac App Store command-line interface
+brew "lazygit"
 brew "mas"
-# Small build system for use with gyp or CMake
 brew "ninja"
-# NCurses Disk Usage
 brew "ncdu"
-# Port scanning utility for large networks
 brew "nmap"
-# Bash completion for open
 brew "open-completion"
-# Development kit for the Java programming language
 brew "openjdk@17"
-# Development kit for the Java programming language
 brew "openjdk@21"
-# OpenBSD freely-licensed SSH connectivity tools
 brew "openssh"
-# Bash completion for Pip
 brew "pip-completion"
-# Tool for managing OCI containers and pods
 brew "podman"
-# Generic machine emulator and virtualizer
 brew "qemu"
-# Powerful, clean, object-oriented scripting language
 brew "ruby"
-# Version control system designed to be a better CVS
 brew "subversion"
-# Open source continuous file synchronization application
 brew "syncthing", restart_service: true
-# Parser generator tool and incremental parsing library
 brew "tree-sitter"
-# Cross-platform Rust rewrite of the GNU coreutils
 brew "uutils-coreutils"
-# Vi 'workalike' with many additional features
 brew "vim"
-# Generator for LS_COLORS with support for multiple color themes
 brew "vivid"
-# Internet file retriever
 brew "wget"
-# Homebrew, but with Docker images
-brew "whalebrew"
-# Automatic workarounds for problems in Wine
 brew "winetricks"
-# Download YouTube videos from the command-line
 brew "youtube-dl"
-# GTK+ dialog boxes for the command-line
 brew "zenity"
-# Compression and file packaging/archive utility
 brew "zip"
-# Shell extension to navigate your filesystem faster
 brew "zoxide"
-# Additional completion definitions for zsh
 brew "zsh-completions"
-# A cli tool to browse and play anime
 brew "p1x3l101-10/personal/ani-cli"
-#  The automation tower defense RTS 
 brew "p1x3l101-10/personal/mindustry"
-# Java 8 for M1, provided by Zulu
 brew "p1x3l101-10/personal/zulu@8"
-# Web browser
 cask "firefox"
-# Prism Launcher fork with support for alternative auth servers
 cask "fjordlauncher"
-# Terminal built on web technologies
 cask "hyper"
-# Free and open-source media player
 cask "iina"
-# Utility to open, create and modify archive files
 cask "maczip"
-# Rhythm game
 cask "osu"
-# Open-source media center
 cask "stremio"
-# A free and open-source Touhou Project fangame
 cask "taisei-project"
-# Free-to-play Tetris clone
 cask "tetrio"
-# Web browser focusing on security
 cask "tor-browser"
-# Desktop Backup Client for Borg
 cask "vorta"
-# Wine wrapper built with SwiftUI
 cask "whisky"
-# YouTube music client
 cask "ytmdesktop-youtube-music"
 mas "AdGuard for Safari", id: 1440147259
 mas "Amphetamine", id: 937984704
@@ -131,4 +75,3 @@ mas "oah", id: 1592826205
 mas "Pages", id: 409201541
 mas "Silicio", id: 933627574
 mas "TestFlight", id: 899247664
-whalebrew "directory"
