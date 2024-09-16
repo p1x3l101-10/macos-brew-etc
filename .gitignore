@@ -10,6 +10,7 @@
 !/homebrew/backupPaths.conf
 !/homebrew/brew.env
 !/homebrew/links.conf
+!/homebrew/install.sh
 !/tor
 !/tor/torrc
 !/tor/torrc.d
