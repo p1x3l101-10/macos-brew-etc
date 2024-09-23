@@ -32,7 +32,7 @@ brew "wget"
 brew "zoxide"
 brew "zsh-completions"
 brew "p1x3l101-10/personal/ani-cli"
-brew "p1x3l101-10/personal/brew-tools", args: ["HEAD"]
+brew "p1x3l101-10/personal/brew-tools"
 brew "p1x3l101-10/personal/mindustry"
 brew "p1x3l101-10/personal/zulu@8"
 cask "fjordlauncher"
