@@ -1,6 +1,5 @@
 set rtp+=/private/var/tmp/homebrew/opt/fzf
 syntax on
-set undofile
 set number
 set backspace=indent,eol,start
 set history=1000
