@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/private/var/tmp/Tester.app/Contents'
+let g:netrw_dirhist_8='/private/var/tmp/.homebrew/etc/ssh-proxy'
+let g:netrw_dirhist_7='/private/var/tmp/MGL/build'
+let g:netrw_dirhist_6='/private/var/tmp/.homebrew/etc/ssh-proxy'
+let g:netrw_dirhist_5='/Users/sblatt/Library/Application Support/Code'
+let g:netrw_dirhist_4='/private/var/tmp/.homebrew/Applications/Sideloaded/factorio-1.0.app/config'
+let g:netrw_dirhist_3='/Users/sblatt/.local/share/CKAN'
+let g:netrw_dirhist_2='/private/var/tmp/homebrew/Applications/Sideloaded/Vesktop.app/Contents/MacOS'
+let g:netrw_dirhist_1='/private/var/tmp/homebrew/Library/Linked/Programs/nix-darwin-boostrapping/2.3.16/nixpkgs-24.11/pkgs/by-name/ky/kyua'
+let g:netrw_dirhist_0='/private/var/tmp/homebrew/etc/privoxy'

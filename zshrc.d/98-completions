@@ -1,0 +1,5 @@
+fpath=(
+  "$(brew --prefix)/etc/zsh-completions"
+  $fpath
+)
+compinit

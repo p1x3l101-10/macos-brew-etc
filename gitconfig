@@ -3,3 +3,9 @@
 [user]
 	name = Pixel
 	email = scott.blatt.0b10@gmail.com
+[init]
+	defaultBranch = main
+[push]
+	followTags = true
+[remote "origin"]
+	tagopt = --tags

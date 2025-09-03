@@ -1,2 +1,7 @@
-XDG_CONFIG_DIR=$HOME/.config
-WHALEBREW_CONFIG_DIR=$HOMEBREW_PREFIX/etc/whalebrew
+XDG_CONFIG_DIR=/home/sblatt/.config
+WHALEBREW_CONFIG_DIR=/private/var/tmp/.homebrew/etc/whalebrew
+EMSCRIPTEN_ROOT=/private/var/tmp/.homebrew/opt/emscripten/libexec
+VCPKG_ROOT=/private/var/tmp/.homebrew/Library/VCPkg
+all_proxy=socks5://127.0.0.1:1080
+JAVA_HOME=/private/var/tmp/.homebrew/opt/openjdk@21
+SSL_CERT_FILE=/private/var/tmp/.homebrew/etc/ca-certificates/cert.pem 

@@ -29,3 +29,4 @@ set wildignore+=tmp/**
 set wildignore+=*.png,*.jpg,*.gif
 set mouse=a
 set termguicolors
+set clipboard=unnamed
