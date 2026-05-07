@@ -3,9 +3,19 @@
 [user]
 	name = Pixel
 	email = scott.blatt.0b10@gmail.com
+	signingkey = ACD0910C3FD1322FCE8F73A63C2D22F9DE687571
 [init]
 	defaultBranch = main
 [push]
 	followTags = true
 [remote "origin"]
 	tagopt = --tags
+[commit]
+	gpgsign = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[pull]
+	rebase = true

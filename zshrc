@@ -11,6 +11,11 @@ export XDG_CACHE_HOME="$HOME/Library/Caches"
 export XDG_BIN_HOME="$HOMEBREW_PREFIX/local/bin"
 export XDG_RUNTIME_DIR="$(getconf DARWIN_USER_TEMP_DIR)"
 
+# Basic environment
+export SSH_AUTH_SOCK="$HOMEBREW_PREFIX/var/run/yubikey-agent.sock"
+export EDITOR="ex"
+export VISUAL="vi"
+
 # Launch nushell if this is a login shell, I am switching to nu anyways
 if [[ -o login ]] && [[ -o interactive ]]; then
   which nu 2>&1 > /dev/null && exec nu --login

@@ -5,7 +5,6 @@ set backspace=indent,eol,start
 set history=1000
 set visualbell
 set autoindent
-set smartindent
 set smarttab
 set shiftwidth=2
 set softtabstop=2
@@ -30,3 +29,5 @@ set wildignore+=*.png,*.jpg,*.gif
 set mouse=a
 set termguicolors
 set clipboard=unnamed
+autocmd BufRead,BufNewFile *.nuon set filetype=nu
+
